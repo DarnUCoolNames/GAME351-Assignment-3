@@ -47,7 +47,13 @@ public class PlayerController : MonoBehaviour
             else
                 animController.SetBool("Crouch", false);
         }
-
+        
+        // kick with space
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animController.SetTrigger("Kick");
+            animController.SetInteger("KickType", Random.Range(0, 99));
+        }
 
     }
 }
