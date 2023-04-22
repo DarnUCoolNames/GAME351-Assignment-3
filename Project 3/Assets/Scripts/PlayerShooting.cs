@@ -11,7 +11,7 @@ public class PlayerShooting : MonoBehaviour
 
     void Start()
     {
-            Instantiate(prefab, transform.position, transform.rotation);
+
     }
 
     // Update is called once per frame
@@ -19,7 +19,9 @@ public class PlayerShooting : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Instantiate(prefab);
+            GameObject bullet = Instantiate(prefab);
+            bullet.transform.position = this.transform.position;
+            bullet.transform.rotation = this.transform.rotation;
         }
 
     }
