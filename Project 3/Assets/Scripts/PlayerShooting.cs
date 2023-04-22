@@ -6,6 +6,7 @@ public class PlayerShooting : MonoBehaviour
 {
 
     public GameObject prefab;
+    public GameObject ShootPoint;
 
 
     void Start()
