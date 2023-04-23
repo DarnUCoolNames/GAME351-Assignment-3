@@ -23,6 +23,5 @@ public class PlayerShooting : MonoBehaviour
             bullet.transform.position = this.transform.position;
             bullet.transform.rotation = this.transform.rotation;
         }
-
     }
 }
