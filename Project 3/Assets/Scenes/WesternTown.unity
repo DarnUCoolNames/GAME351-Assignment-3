@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18146001, g: 0.22709143, b: 0.3073942, a: 1}
+  m_IndirectSpecularColor: {r: 0.18145958, g: 0.22709072, b: 0.30739307, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7500,6 +7500,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 203918119}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204328935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1064908387003072, guid: 15a550206f811c346b37f3a3f4495178,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908370211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &204328937
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204328935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.09425231
+  m_Height: 0.81365246
+  m_Direction: 0
+  m_Center: {x: -0.5024017, y: 0.020551922, z: 0.02893366}
 --- !u!1001 &205063109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36664,7 +36684,7 @@ GameObject:
   - component: {fileID: 935601005}
   - component: {fileID: 935601004}
   m_Layer: 0
-  m_Name: BoxTriggerVoice (5)
+  m_Name: JessieAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36694,8 +36714,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.31878668, y: 1.7404222, z: 1.1118636}
+  m_Center: {x: -0.3406068, y: 0.37021112, z: -0.05593226}
 --- !u!82 &935601006
 AudioSource:
   m_ObjectHideFlags: 0
@@ -37046,7 +37066,7 @@ GameObject:
   - component: {fileID: 938045695}
   - component: {fileID: 938045694}
   m_Layer: 0
-  m_Name: BoxTriggerVoice (2)
+  m_Name: BelleAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37076,8 +37096,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.875635, z: 0.14139059}
+  m_Center: {x: -0.000013213011, y: 0.4378175, z: 0.4293052}
 --- !u!82 &938045696
 AudioSource:
   m_ObjectHideFlags: 0
@@ -50887,7 +50907,7 @@ GameObject:
   - component: {fileID: 1270302767}
   - component: {fileID: 1270302766}
   m_Layer: 0
-  m_Name: BoxTriggerVoice
+  m_Name: SheriffAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57281,7 +57301,7 @@ GameObject:
   - component: {fileID: 1433158305}
   - component: {fileID: 1433158304}
   m_Layer: 0
-  m_Name: BoxTriggerVoice (4)
+  m_Name: BillyAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57311,8 +57331,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2967761, y: 1.7402092, z: 1.241985}
+  m_Center: {x: -0.35161373, y: 0.37010485, z: 0.12099282}
 --- !u!82 &1433158306
 AudioSource:
   m_ObjectHideFlags: 0
@@ -58356,10 +58376,10 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: 98bb8bd8f072a2a4595722622eaec19c, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.3495593
+  m_Radius: 0.20832732
   m_Height: 1.8624241
   m_Direction: 1
-  m_Center: {x: 4.47674, y: 0.9402945, z: 2.9639554}
+  m_Center: {x: 4.4768014, y: 0.940307, z: 2.8702214}
 --- !u!114 &1457821297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58372,7 +58392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11c89ba11bca46de874f2eb20c3c8fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kickforce: 1
+  kickforce: 100
 --- !u!1001 &1458404809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63171,6 +63191,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf7e228c4f7559445b61d3f1f4207327, type: 3}
+--- !u!1 &1596018876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1360510357825038, guid: 15a550206f811c346b37f3a3f4495178,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908370211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1596018878
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596018876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.10518066
+  m_Height: 0.75070614
+  m_Direction: 0
+  m_Center: {x: 0.46826434, y: 0.020552427, z: -0.04293934}
 --- !u!1001 &1597606071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74882,7 +74922,7 @@ GameObject:
   - component: {fileID: 1830845365}
   - component: {fileID: 1830845364}
   m_Layer: 0
-  m_Name: BoxTriggerVoice (3)
+  m_Name: DocAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74912,8 +74952,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.8150482, z: 0.31783313}
+  m_Center: {x: -0.00000074213744, y: 0.4075241, z: -0.34108296}
 --- !u!82 &1830845366
 AudioSource:
   m_ObjectHideFlags: 0
