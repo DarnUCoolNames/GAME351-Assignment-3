@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18145958, g: 0.22709072, b: 0.30739307, a: 1}
+  m_IndirectSpecularColor: {r: 0.18146001, g: 0.22709143, b: 0.3073942, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17912,6 +17912,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1165654962}
+  - {fileID: 1269337571}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50793,6 +50794,132 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: dd9a2415c6257cb4ba1738d92c094497, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0a2d0555798fcb4e8e37723ae88a02b, type: 3}
+--- !u!1001 &1269337570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 469813377}
+    m_Modifications:
+    - target: {fileID: 1517026116117408, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_Name
+      value: Lightning0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897913047500518, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_Name
+      value: LightningSparks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919175764862134, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_Name
+      value: BeamLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198091275674055808, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198091275674055808, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: autoRandomSeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198091275674055808, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.27843142
+      objectReference: {fileID: 0}
+    - target: {fileID: 198091275674055808, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.74695545
+      objectReference: {fileID: 0}
+    - target: {fileID: 198091275674055808, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198773170848643532, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.5157232
+      objectReference: {fileID: 0}
+    - target: {fileID: 198773170848643532, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.96565664
+      objectReference: {fileID: 0}
+    - target: {fileID: 198773170848643532, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198773170848643532, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: SubModule.subEmitters.Array.data[0].emitter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 199237269291319300, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199569489122716826, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d1c3df4c54b7414ab7515a0fddc4a80, type: 3}
+--- !u!4 &1269337571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467689051367570, guid: 1d1c3df4c54b7414ab7515a0fddc4a80,
+    type: 3}
+  m_PrefabInstance: {fileID: 1269337570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1269379633
 PrefabInstance:
   m_ObjectHideFlags: 0
