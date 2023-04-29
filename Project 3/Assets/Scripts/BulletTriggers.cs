@@ -20,12 +20,12 @@ public class BulletTriggers : MonoBehaviour
             brokenbarrel.transform.position = other.gameObject.transform.position;
             brokenbarrel.transform.rotation = other.gameObject.transform.rotation;
         }
-    }
-    /*void OnCollisionEnter(Collision other)
-    {
-        if (collision.gameObject.CompareTag("Bandit"))
+    
+    //void OnCollisionEnter(Collision other)
+    
+        if (other.CompareTag("Bandit"))
         {
             Destroy(other.gameObject);
         }
-    }*/
+    }
 }
