@@ -7,7 +7,7 @@ public class BulletTriggers : MonoBehaviour
     public GameObject prefab;
     public ParticleSystem explosion;
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Barrel"))
         {
@@ -20,12 +20,15 @@ public class BulletTriggers : MonoBehaviour
             brokenbarrel.transform.position = other.gameObject.transform.position;
             brokenbarrel.transform.rotation = other.gameObject.transform.rotation;
         }
-    
-    //void OnCollisionEnter(Collision other)
-    
-        if (other.CompareTag("Bandit"))
+
+        if (other.gameObject.CompareTag("Bandit"))
         {
-            Destroy(other.gameObject);
+            Animator animator = other.gameObject.GetComponent<Animator>();
+            if (animator != null)
+            {
+                animator.SetTrigger("Death");
+                Destroy(gameObject);
+            }
         }
     }
 }
