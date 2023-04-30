@@ -108,7 +108,14 @@ Choice Feature Implemented:
 	controlled by the RainController script with the "RainRate" variable, allowing for adjustable rainfall intensity.
 	-Rain storm noises are added to the weather system as well as thunder. 
 
-	-Lightning: Lightning strikes are created using Unity's VFX with custom lightning textures. The lightning VFX animation cycles continuously 	throughout the gameplay. When the lightning strikes it produces sub particle sparks to enhance the effect.  
+	-Lightning: Lightning strikes are created using Unity's VFX with custom lightning textures. The lightning VFX animation cycles continuously 	
+	throughout the gameplay. When the lightning strikes it produces sub particle sparks to enhance the effect.  
+
+
+Known Anomalies: 
+
+	-Character voices all play on startup of game.
+	-Player camera rotates and tilts a bit unexpectedly when the player moves around the world.
 
 
 To install the project, follow these steps:
