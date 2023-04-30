@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Barrel
   - Bandit
+  - Shop
   layers:
   - Default
   - TransparentFX
