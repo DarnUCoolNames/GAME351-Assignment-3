@@ -36681,9 +36681,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 935601007}
-  - component: {fileID: 935601006}
   - component: {fileID: 935601005}
   - component: {fileID: 935601004}
+  - component: {fileID: 935601006}
   m_Layer: 0
   m_Name: JessieAudio
   m_TagString: Untagged
@@ -48586,7 +48586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1212461389
 Transform:
   m_ObjectHideFlags: 0
