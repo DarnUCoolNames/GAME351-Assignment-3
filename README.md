@@ -98,6 +98,7 @@ For this American Wild West “A Palmful of Paper Money” action game, the team
 Choice Feature Implemented:
 
 1. Monsoon Weather
+	
 	-Dark Clouds: Dark, stormy clouds are created using Unity's particle system with custom cloud textures/shading. 
 	Dark clouds are added to the original sky to produce a stormy appearance. The sky dome color was also edited in 
 	order to appear overcast as it would during a real summer monsoon. 
