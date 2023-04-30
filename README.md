@@ -110,8 +110,12 @@ Choice Feature Implemented:
 	-Rain storm noises are added to the weather system as well as thunder. 
 
 	-Lightning: Lightning strikes are created using Unity's VFX with custom lightning textures. The lightning VFX animation cycles 
-    continuously throughout the gameplay. When the lightning strikes it produces sub particle sparks to enhance the effect.  
+	continuously throughout the gameplay. When the lightning strikes it produces sub particle sparks to enhance the effect.  
 
+Anomalies: 
+
+	-Character voices all play on startup of game.
+	-Player camera rotates a bit and tilts a bit when the player moves around the world.
 
 To install the project, follow these steps:
 
